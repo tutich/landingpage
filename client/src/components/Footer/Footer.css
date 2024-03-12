@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+.footer {
+    background: hsl(233, 26%, 24%);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.nav-img-footer img {
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 100%);
+    padding: 4px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    align-items: center;
+    place-items: center;
+}
+.iconss img {
+    padding: 6px;
+    margin-top: 3em;
+}
+.about li {
+    color: hsl(220, 16%, 96%);
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.career li {
+    color: hsl(220, 16%, 96%);
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.all {
+    padding: 14px;
+    color: hsl(233, 8%, 62%);
+    font-size: 13px;
+    font-weight: 300;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+}
+.rights {
+    display: flex;
+    flex-direction: column;
+}
+.iconss img:hover {
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+.about a:hover {
+    color: hsl(136, 65%, 51%);
+}
+.career a:hover {
+    color: hsl(136, 65%, 51%);
+}

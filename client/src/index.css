@@ -22,6 +22,9 @@ Grayish Blue: hsl(233, 8%, 62%)
   display: none;
   color: hsl(233, 26%, 24%);
 }
+main {
+  overflow: hidden;
+}
 
 @media only screen and (max-width : 768px) {
   .link {
@@ -59,8 +62,46 @@ Grayish Blue: hsl(233, 8%, 62%)
   }
 
  
-  .request {
+  .requestt {
     display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+  .art{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .desktop {
+    background: url(/src/images/bg-intro-mobile.svg);
+    background-size: cover;
+    padding: 0 15px;
+    margin-bottom: 40px;
+  }
+  .desktop .desk {
+    aspect-ratio: 1/1;
+   object-fit: cover;
+   object-position: bottom;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
   }
 
 }

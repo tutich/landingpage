@@ -22,14 +22,14 @@ function Navbar() {
             <div className="nav-img"><img src={close} alt="" /></div>
             <div className="links">
                 <ul className={`link ${toggleIcon ? "active" : ""}`}>
-                    <li onClick={handleLinkClick}><a href="#">Home</a></li>
-                    <li onClick={handleLinkClick} ><a href="#">About</a></li>
-                    <li onClick={handleLinkClick} ><a href="#">Contact</a></li>
-                    <li onClick={handleLinkClick}><a href="#">Blog</a></li>
-                    <li onClick={handleLinkClick} ><a href="#">Careers</a></li>
+                    <li onClick={handleLinkClick}><a className="nav-link" href="#">Home</a></li>
+                    <li onClick={handleLinkClick} ><a className="nav-link" href="#">About</a></li>
+                    <li onClick={handleLinkClick} ><a className="nav-link" href="#">Contact</a></li>
+                    <li onClick={handleLinkClick}><a className="nav-link" href="#">Blog</a></li>
+                    <li onClick={handleLinkClick} ><a className="nav-link" href="#">Careers</a></li>
                 </ul>
             </div>
-            <div className="request"><button type='submit'>Request Invite</button></div>
+            <div className="requestt"><button type='submit'>Request Invite</button></div>
             <div className="nav-icon" onClick={handleToggleIcon}>
             { toggleIcon ? <HiX size={28}/> : <FaBars size={28}/>}
             </div>

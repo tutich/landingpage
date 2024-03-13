@@ -22,7 +22,7 @@ function Body() {
              
          </section>
 
-         <section className='content'>
+          <section className='content'>
              <div className="sect">
                  <h2 className='section-title'>Why choose Easybank?</h2>
                  <p className='section-text'>We leverage Open Banking to turn your bank account into your financial hub.
@@ -32,37 +32,36 @@ function Body() {
                     <div className="api">
                         <img src={online} alt="" />
                         <h2>Online Banking </h2>
-                        <p>Our modern web and mobile applications allow you to keep
+                        <p className='desc'>Our modern web and mobile applications allow you to keep
                             track of your finances wherever you are in the world.
                         </p>
                     </div>
                     <div className="api">
                         <img src={budgeting} alt="" />
                         <h2>Simple Budgeting </h2>
-                        <p>See exactly where your money goes each month.
+                        <p className='desc'>See exactly where your money goes each month.
                             Receive notifications when you’re close to hitting your limits.
                         </p>
                     </div>
                     <div className="api">
                         <img src={Onboarding} alt="" />
                         <h2>Fast Onboarding </h2>
-                        <p>We don’t do branches. Open your account in minutes online and
+                        <p className='desc'>We don’t do branches. Open your account in minutes online and
                             start taking control of your finances right away.
                         </p>
                     </div>
                     <div className="api">
                         <img src={API} alt="" />
                         <h2>Open API</h2>
-                        <p> Manage your savings, investments, pension, and much more from one account.
+                        <p className='desc'> Manage your savings, investments, pension, and much more from one account.
                             Tracking your money has never been easier.
                         </p>
                     </div>
                 </div>
            </section>
+             
+        
             
-            
-                
-                
         </>
 
     )

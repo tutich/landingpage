@@ -29,7 +29,7 @@ function Navbar() {
                     <li onClick={handleLinkClick} ><a className="nav-link" href="#">Careers</a></li>
                 </ul>
             </div>
-            <div className="requestt"><button type='submit'>Request Invite</button></div>
+            <div className="requestt hidden lg:block"><button type='submit' className='btn'>Request Invite</button></div>
             <div className="nav-icon" onClick={handleToggleIcon}>
             { toggleIcon ? <HiX size={28}/> : <FaBars size={28}/>}
             </div>

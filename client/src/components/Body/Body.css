@@ -1,5 +1,5 @@
 
-.int {
+ /* .int {
     display:        flex;
     flex-direction: row-reverse;
     align-items:    center;
@@ -70,23 +70,4 @@ section {
     flex-direction: column;
     width: 100%;
     
-}
-.section-title {
-    /* text-align: left;
-    font-size: 40px;
-    margin: 0 auto; */
-    width: 50%;
-    margin-left: 2em;
-  }
-
-  .section-text {
-    /* text-align: left;
-    max-width: 650px;
-    margin: 0;
-    margin-bottom: 80px;
-    margin: 0 auto; */
-    max-width: 400px;
-    margin-left: 20em;
-    padding: 15px;
-  }
-  
+} */

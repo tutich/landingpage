@@ -1,8 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Public Sans';
+  font-family: "Public Sans", sans-serif;;
   box-sizing: border-box;
   background:  hsl(0, 0%, 98%);
   
@@ -18,6 +23,22 @@ Grayish Blue: hsl(233, 8%, 62%)
 - White: hsl(0, 0%, 100%)
 } */
 
+img {
+  max-width: 100%;
+}
+p {
+  @apply text-slate-900 text-sm mb-8 leading-relaxed opacity-75 lg:text-base;
+}
+h2 {
+  @apply text-2xl text-slate-800 mb-6 lg:text-3xl
+}
+h3 {
+  @apply text-xl text-slate-800 mb-6 lg:text-xl
+}
+.btn {
+  background: linear-gradient(136deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  @apply text-white font-bold py-3 px-6 rounded-full;
+}
 .nav-icon {
   display: none;
   color: hsl(233, 26%, 24%);
@@ -25,7 +46,9 @@ Grayish Blue: hsl(233, 8%, 62%)
 main {
   overflow: hidden;
 }
-
+footer {
+  background-color: hsl(233, 26%, 24%);
+}
 @media only screen and (max-width : 768px) {
   .link {
     display: flex;
@@ -59,39 +82,6 @@ main {
     display: block;
     right: 10px;
     position: absolute;
-  }
-
- 
-  .requestt {
-    display: none;
-  }
-  /* 
-  .desktop {
-    background: url(/src/images/bg-intro-mobile.svg);
-    background-size: cover;
-    padding: 0 15px;
-    margin-bottom: 40px;
-  }
-  .desktop .desk {
-    aspect-ratio: 1/1;
-   object-fit: cover;
-   object-position: bottom;
-  } */
-  .desktop {
-    
-  }
-  
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    place-content: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
   }
   
 }
